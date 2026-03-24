@@ -13,9 +13,8 @@ class Solution {
         ListNode L=new ListNode();
         ListNode ans=L;
         int carry=0;
-        int sum=0;
         while(l1!=null||l2!=null||carry!=0){
-            sum=carry;
+            int sum=carry;
             if(l1!=null){
                 sum+=l1.val;
                 l1=l1.next;
